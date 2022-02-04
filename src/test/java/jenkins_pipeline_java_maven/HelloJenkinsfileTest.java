@@ -9,7 +9,7 @@ import com.xyz.HelloJenkinsfile;
 public class HelloJenkinsfileTest {
 
 	@Test
-	public void test() {
+	public void test1() {
 		assertEquals("HelloJenkinsfile", new HelloJenkinsfile().go());
 	}
 
